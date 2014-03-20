@@ -99,13 +99,18 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #CC9933;
     clear: both;
-    color: #ffffff;
-}
-
+    color: #606060  ;
+    font-family: Cambria serif; 
+    font-size: 15;
+    line-height:30px;}
+    
+footer a {
+    color: #606060;}
 footer ul {
     list-style-type: none;
+    
 }
 
 .wrapper {
@@ -122,6 +127,7 @@ footer ul {
     float: left;
     padding-right: 2%; 
     width: 32%;
+    text-decoration: none;
 }
 
 .twothird {
