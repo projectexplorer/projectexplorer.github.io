@@ -108,16 +108,19 @@ footer ul {
     list-style-type: none;
 }
 
+ 
 footer li {
-     
+        color:#000000;
         font-family:pt sans;
         font-size:14px;
-    
+        padding-top:1%;
     
 }
-  
-
+ 
+ a:link{color:#000000;}
  a:visited{color:#000000;}
+ a:hover {}
+ a:active{}
 
 .wrapper {
     margin: 0 auto;
