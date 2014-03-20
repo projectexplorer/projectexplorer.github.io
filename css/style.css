@@ -108,6 +108,17 @@ footer ul {
     list-style-type: none;
 }
 
+footer li {
+     
+        font-family:pt sans;
+        font-size:14px;
+    
+    
+}
+  
+
+ a:visited{color:#000000;}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
