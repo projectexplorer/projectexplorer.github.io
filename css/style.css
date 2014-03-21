@@ -138,7 +138,6 @@ footer li {color: #ffffff;
     padding-right: 2%;
     width: 49%;
 }
-
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
 }
@@ -173,7 +172,7 @@ footer li {color: #ffffff;
 
 .promo h3 {
     background-color: #5cb0ff;
-    padding: 8px 0;
+    padding: 7px 0;
     text-align: center;
     text-transform: uppercase; 
 }
@@ -192,7 +191,7 @@ footer li {color: #ffffff;
 }
 
 .featured img {
-    margin-top: 9px;
+    margin-top: 6px;
 }
 
 /* END modules */
