@@ -99,7 +99,7 @@ figcaption {
 
 
 footer {
-    background-color: #669900;
+    background-color: #ff9988;
     clear: both;
     color: #ffffff;
 }
@@ -108,7 +108,7 @@ footer ul {
     list-style-type: none;
 }
 
-footer li {color: #ff9933;
+footer li {color: #ffffff;
 }
 
 .wrapper {
@@ -183,7 +183,7 @@ footer li {color: #ff9933;
 }
 
 .promo.level-high h3 {
-    background-color: orange;
+    background-color: #ffa500;
 }
 
 .promo h3 a {
