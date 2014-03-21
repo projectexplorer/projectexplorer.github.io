@@ -101,11 +101,19 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #000000;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type:disc;
+}
+
+footer a {
+    color: #660066;
+}
+
+footer ul .social {
+    float: left;
 }
 
 .wrapper {
