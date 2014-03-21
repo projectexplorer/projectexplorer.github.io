@@ -108,6 +108,14 @@ footer ul {
     list-style-type: none;
 }
 
+footer li{
+    color: #000000;
+    font-size: 11px;
+    margin-top: 2px;
+    text-transform:uppercase;
+    
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
