@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=The+Girl+Next+Door);
 
 * {
     margin:0;
@@ -102,10 +103,14 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
-}
+    font-family:'The Girl Next Door', cursive;
+    }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: square; 
+}
+
+footer li { color: orange;
 }
 
 .wrapper {
