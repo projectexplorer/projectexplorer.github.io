@@ -102,11 +102,17 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+     font-family: "Gill Sans", "Calibri", "Trebuchet", sans-serif
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: disc;
+   
 }
+footer a:link    {color:#FFFFFF;}
+footer a:visited {color:#9945E8;}
+footer a:hover   {color:#FF6824;}
+
 
 .wrapper {
     margin: 0 auto;
