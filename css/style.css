@@ -139,6 +139,7 @@ footer li {color: #ffffff;
     width: 49%;
 }
 .last { /* :last-child isnt' supported in IE8 */
+    float:right;
     padding-right: 0;
 }
 
