@@ -104,6 +104,9 @@ footer {
     color: #ffffff;
 }
 
+footer li { font-family: sans-serif;
+    color: blue;
+}
 footer ul {
     list-style-type: none;
 }
