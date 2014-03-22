@@ -101,12 +101,16 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #008080;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
 }
 
 footer ul {
     list-style-type: none;
 }
+
+footer li { color: #ff00ff; }
 
 .wrapper {
     margin: 0 auto;
