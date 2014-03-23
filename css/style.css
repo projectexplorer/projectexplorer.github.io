@@ -100,14 +100,60 @@ figcaption {
 
 footer {
     background-color: #5cb0ff;
-    clear: both;
+    float: left;
+    width: 100%;
     color: #ffffff;
 }
 
 footer ul {
     list-style-type: none;
+    color: #FF6600;
+    font-size: 12px;
 }
 
+footer li {
+    padding: 0;
+    margin-left: 10px;
+    display: inline;
+    width: 100%;
+}
+
+ul.social {
+color: #ffffff;  
+display: inline;
+    
+}
+
+li.line {
+display: inline;
+padding: 0px 5px 0px 5px; /*TRouBLe*/
+font-size:12px;
+}
+
+/*I really wanted the p and social tabs to align to the right but could not figure out how to change this code to have it do that, because this footer is way to big in my opinion*/
+
+footer p {
+width: 100%;
+font-size: 12px;
+padding: 0;
+margin: 0;
+float: right;
+}
+
+p.left {
+float: right;
+}
+
+.thirdfooter li {
+display: inline;
+width: 100%;  
+    
+}
+
+.thirdlastfooter li{
+    display: inline;
+    width: 100%;
+}
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -198,6 +244,7 @@ footer ul {
 
     .wrapper {
         width: 95%;
+        
     }
     
     .half, .third, .twothird {
