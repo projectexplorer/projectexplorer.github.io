@@ -104,6 +104,8 @@ footer {
     color: #ffffff;
 }
 
+footer li{color: #000000;}
+
 footer ul {
     list-style-type: none;
 }
