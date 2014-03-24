@@ -108,6 +108,18 @@ footer ul {
     list-style-type: none;
 }
 
+footer li {
+    color: #000000;
+} 
+
+footer li:hover {
+    color: #ffffff;
+}
+
+footer li:active {
+    color: #0000ff;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -140,6 +152,10 @@ footer ul {
     padding-right: 0;
 }
 
+.copyright { 
+    float: left;
+}
+    
 .clearfix {
     clear: both;
     display: block;
