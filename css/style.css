@@ -99,13 +99,46 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #cccccc;
     clear: both;
     color: #ffffff;
 }
 
 footer ul {
     list-style-type: none;
+    
+}
+
+footer li {
+    font-size: 16px;
+    font-family: average, georgia, serif;
+    font-weight: 700;
+}
+
+.items {
+    margin: 10px 5px 0px 100px;
+}
+
+footer p {
+    text-align: center;   
+}
+.social {
+    text-align: center;  
+    margin: 0px 0px 30px 0px;
+}
+
+footer a {
+    color: #ffffff;
+    margin-right: 20px;
+    text-decoration: none;  
+}
+
+footer a:hover {
+    color: #5cb0ff;   
+}
+
+.thirdmore {   
+    text-align: center;
 }
 
 .wrapper {
