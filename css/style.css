@@ -99,13 +99,21 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #72cef4;
     clear: both;
-    color: #ffffff;
+    color: #f8a92d;
+    font-size: 16px;
+    font-family:serif;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: none; 
+}
+
+footer li {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .wrapper {
