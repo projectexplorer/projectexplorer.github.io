@@ -101,11 +101,38 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
 }
 
 footer ul {
     list-style-type: none;
+    padding-left: 10px
+}
+
+footer a { 
+    color: #FFA500;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    color: #ffffff;
+    
+}
+
+footer p {
+    font-size: 15px;
+    float: right;
+    display: inline;
+    margin-top: 70px;
+    margin-right: 40px;
+   
+}
+
+.social {
+    color: white;
+    
 }
 
 .wrapper {
