@@ -99,14 +99,43 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
-    clear: both;
-    color: #ffffff;
+    background-color: #00CCFF;
+    clear: both; 
+    color: #FF3300;
+    font-weight:700;
+
+    
+    
+}
+
+footer p {
+    text-align:center;
+    font-size: 12px;
+    line-height:13px;
+    padding:5px;
+    
+    
 }
 
 footer ul {
     list-style-type: none;
+    text-align:center;
+
+ }
+
+footer a {
+    color: #990099;
+    
+            
 }
+
+footer nav {
+    text-align:center;
+    font-size:20px;
+       
+  }
+
+
 
 .wrapper {
     margin: 0 auto;
