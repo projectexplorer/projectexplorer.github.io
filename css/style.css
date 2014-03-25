@@ -99,7 +99,7 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #5cffff;
     clear: both;
     color: #ffffff;
 }
@@ -107,6 +107,17 @@ footer {
 footer ul {
     list-style-type: none;
 }
+
+footer a:link {}
+footer a:visited {}
+footer a:hover {
+    color: #cccccc;          
+} 
+footer a:active {
+    text-decoration: underline;
+}
+
+footer a:focus {}
 
 .wrapper {
     margin: 0 auto;
@@ -127,7 +138,8 @@ footer ul {
 .twothird {
     float: left;
     padding-right: 8%; 
-    width: 58%;    
+    width: 58%;
+
 }
 
 .half {
