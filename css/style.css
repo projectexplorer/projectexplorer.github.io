@@ -27,6 +27,7 @@ h2 {
 
 p {
     margin-bottom: 24px;
+    
 }
 
 img {
@@ -104,8 +105,50 @@ footer {
     color: #ffffff;
 }
 
+footer li {
+    color: orange;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: serif;
+    line-height: 22px;
+    width: auto;
+    text-transform: uppercase;
+    
+}
+
 footer ul {
-    list-style-type: none;
+    list-style-type: circle;
+    list-style-position: outside;
+    line-height: 21px;
+    margin: 20px;
+}
+
+footer p {
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 10px;
+    color: #000000;
+    line-height: 1px;
+    text-decoration: underline; 
+    
+}
+
+footer .third {
+    float: left;
+    padding-right: 2%; 
+    width: 20%;
+
+}
+
+footer a {
+    font: serif;
+    color: orange;
+    text-decoration: none;
+}
+
+
+footer a:hover{
+    color: #ffffff;
 }
 
 .wrapper {
@@ -121,7 +164,8 @@ footer ul {
 .third {
     float: left;
     padding-right: 2%; 
-    width: 32%;
+    width: 20%;
+
 }
 
 .twothird {
