@@ -96,17 +96,22 @@ figcaption {
     margin-bottom: 24px;
     margin-top: -6px;
 }
-
+footer ul {column-count: 4; 
+}
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #B8B8B8;
     clear: both;
-    color: #ffffff;
-}
-
-footer ul {
-    list-style-type: none;
-}
+    color: #006633;
+    list-style-type:georgian; 
+    padding-left: 0.875em;
+    box-sizing: border-box;
+    column-count: 3;
+    column-gap: 1.75em;
+} 
+/* 
+I cannot, for the life of me, figure out what is not allowing the code above (footer) to become useful and visable. I may be overlooking something so small and I'm sorry. :/               
+*/ 
 
 .wrapper {
     margin: 0 auto;
@@ -126,7 +131,7 @@ footer ul {
 
 .twothird {
     float: left;
-    padding-right: 8%; 
+    padding-right: 5%; 
     width: 58%;    
 }
 
@@ -201,7 +206,7 @@ footer ul {
     }
     
     .half, .third, .twothird {
-        width: 100%;
+        width: 100%; 
     }
     
     .banner p {
