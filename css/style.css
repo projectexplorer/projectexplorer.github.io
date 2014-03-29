@@ -27,6 +27,7 @@ h2 {
 
 p {
     margin-bottom: 24px;
+    
 }
 
 img {
@@ -102,10 +103,38 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+   
+}
+
+footer li {
+    color: orange;
+    font-size: 13px;
+    margin-left: 15px;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: circle;
+    width: inherit;
+    list-style-position: outside;
+    line-height: 21px;
+    margin: 20px;
+}
+
+footer p {
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 10px;
+    color: black;
+    line-height: 2px;
+    
+    
+}
+
+footer .third {
+    float: left;
+    padding-right: 2%; 
+    width: 20%;
+
 }
 
 .wrapper {
@@ -121,7 +150,8 @@ footer ul {
 .third {
     float: left;
     padding-right: 2%; 
-    width: 32%;
+    width: 20%;
+
 }
 
 .twothird {
