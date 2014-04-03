@@ -102,11 +102,37 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+        
 }
-
-footer ul {
+/* first selector */
+footer + .third {
     list-style-type: none;
 }
+
+footer + .third_middle {
+    list-style-type: none;   
+}
+
+footer + .third_last{
+    
+}
+
+footer + .social {    
+    color: #ffffff;
+    text-decoration: none; 
+    font-family: arial, sans-serif; 
+    
+}
+
+footer + p {
+    width: 50%;
+    margin: 10px;   
+    clear: both; 
+}
+
 
 .wrapper {
     margin: 0 auto;
