@@ -107,14 +107,30 @@ footer {
     font-weight: 100;
         
 }
-
-footer ul {
+/* first selector */
+footer + .third {
     list-style-type: none;
 }
 
-footer p {
+footer + .third_middle {
+    list-style-type: none;   
+}
+
+footer + .third_last{
+    
+}
+
+footer + .social {    
+    color: #ffffff;
+    text-decoration: none; 
+    font-family: arial, sans-serif; 
+    
+}
+
+footer + p {
     width: 50%;
     margin: 10px;   
+    clear: both; 
 }
 
 
