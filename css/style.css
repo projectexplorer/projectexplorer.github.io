@@ -16,8 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     line-height: 48px;
+    margin-left: 12px;
 }
 
+h1+nav {
+    border: 5px solid #5cb0ff;
+}
 h2 {
     font-size: 24px;
     line-height: 32px;
@@ -73,6 +77,7 @@ aside h3:first-child {
     margin-top: 10px;
 }
 
+
 aside ul {
     font-size: 12px;
     list-style-type: none;
@@ -89,6 +94,10 @@ aside a:after {
 
 figure {
     margin-bottom: -8px;
+}
+
+.margin {
+    margin-top: 50px; 
 }
 
 figcaption {
@@ -125,7 +134,19 @@ footer p {
     padding: 10px 60px 10px 0;
 }
 
+ul li {
+   font-family: arial, sans-serif;
+    font-size: 18px;
+    
+}
 
+.green {
+     border: 3px solid #00FF00;
+}
+
+ul:last-child {
+   border: 3px solid #5cb0ff;
+}
 
 .wrapper {
     margin: 0 auto;
@@ -143,6 +164,7 @@ footer p {
     width: 32%;
 }
 
+
 .twothird {
     float: left;
     padding-right: 8%; 
@@ -158,6 +180,9 @@ footer p {
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
 }
+
+
+
 
 .clearfix {
     clear: both;
