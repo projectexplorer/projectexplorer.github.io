@@ -108,23 +108,22 @@ footer {
         
 }
 /* first selector */
-footer + .third {
+footer .third {
     list-style-type: none;
 }
 
-.middle {
-    background-color: white; 
+footer .middle {
     
       
 }
 
-.third_last{
+footer .last{
     list-style-type: circle;
     list-style-position: outside;
     
-}s
+}
 
-nav.social {  
+.social {  
     background-color: white;
     text-decoration: none;  
     
