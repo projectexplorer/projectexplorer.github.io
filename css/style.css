@@ -39,7 +39,7 @@ header {
 
 nav a {
     border-bottom: 3px solid #ffffff;
-    color: #000;
+    color: #000000;
     display: inline-block;
     font: 18px/24px 'Oswald', sans-serif;
     padding: 10px;
@@ -112,18 +112,21 @@ footer + .third {
     list-style-type: none;
 }
 
-footer + .third_middle {
-    list-style-type: none;   
-}
-
-footer + .third_last{
+.middle {
+    background-color: white; 
     
+      
 }
 
-footer + .social {    
-    color: #ffffff;
-    text-decoration: none; 
-    font-family: arial, sans-serif; 
+.third_last{
+    list-style-type: circle;
+    list-style-position: outside;
+    
+}s
+
+nav.social {  
+    background-color: white;
+    text-decoration: none;  
     
 }
 
