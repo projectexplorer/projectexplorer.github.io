@@ -108,6 +108,9 @@ footer ul {
     list-style-type: none;
 }
 
+footer li { color: #0000ff; font-size: 20px;
+border: solid #ff00ff;}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -210,3 +213,12 @@ footer ul {
     }
     
 }
+
+header nav a {font-size: 25px; color: orange;}
+
+.third {color: #00ff00;}
+
+body {color: #076076;}
+
+h3 a {font-size: 25px;}
+
