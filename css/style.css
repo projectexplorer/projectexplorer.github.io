@@ -39,7 +39,7 @@ header {
 
 nav a {
     border-bottom: 3px solid #ffffff;
-    color: #000;
+    color: #000000;
     display: inline-block;
     font: 18px/24px 'Oswald', sans-serif;
     padding: 10px;
@@ -102,16 +102,52 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+        
 }
 
-footer ul {
+/* first selector */
+footer .third {
     list-style-type: none;
+}
+
+/* second selector */
+footer .middle {
+    list-style-type: disc;
+    float: none;  
+      
+}
+
+/* third selector */
+footer .last{
+    list-style-type: circle;
+    float: right; 
+    margin: -90px 284px 0px 0px;
+    
+}
+
+/* fourth selector */
+footer .social {  
+    margin-top: 100px;
+    background-color: white;
+    text-decoration: none;  
+    float: clear; 
+    padding: none; 
+    
 }
 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
     
+}
+
+/* fifth selector */
+footer p {
+    float: left; 
+    clear: both; 
 }
 
 .full, .third, .half {
