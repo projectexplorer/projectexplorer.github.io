@@ -107,39 +107,47 @@ footer {
     font-weight: 100;
         
 }
+
 /* first selector */
 footer .third {
     list-style-type: none;
 }
 
+/* second selector */
 footer .middle {
-    
+    list-style-type: disc;
+    float: none;  
       
 }
 
+/* third selector */
 footer .last{
     list-style-type: circle;
-    list-style-position: outside;
+    float: right; 
+    margin: -90px 284px 0px 0px;
     
 }
 
-.social {  
+/* fourth selector */
+footer .social {  
+    margin-top: 100px;
     background-color: white;
     text-decoration: none;  
+    float: clear; 
+    padding: none; 
     
 }
-
-footer + p {
-    width: 50%;
-    margin: 10px;   
-    clear: both; 
-}
-
 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
     
+}
+
+/* fifth selector */
+footer p {
+    float: left; 
+    clear: both; 
 }
 
 .full, .third, .half {
