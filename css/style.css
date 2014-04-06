@@ -24,6 +24,30 @@ h2 {
     margin-bottom: 8px;
 }
 
+h1, h2 {
+color: #FF0000;
+}
+
+.wrapper nav {
+        border-bottom-style:double;
+   }
+
+.wrapper {
+    border:10px;
+    border-style:double;
+}
+
+header > h1 {
+    color: #0000CC;
+}
+
+p + h2 {
+    color: #33CC99;
+}
+
+span {
+    text-decoration:underline
+}
 
 p {
     margin-bottom: 24px;
@@ -101,11 +125,30 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #000000;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: circle;
+}
+
+footer ol {
+color:#990099; 
+}
+
+footer a:link {color:#5cb0ff;}
+footer a:hover {color:#5cb0ff;}
+footer a:active {color: #ffffff}
+footer a:visited {color: #ffffff;}
+
+.list3 {
+color:#ffffff;
+list-style-type:armenian;
+}
+
+.social {
+color: #5cb0ff;
+background-color: #000000;
 }
 
 .wrapper {
@@ -119,7 +162,7 @@ footer ul {
 }
 
 .third {
-    float: left;
+    float: right;
     padding-right: 2%; 
     width: 32%;
 }
