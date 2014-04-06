@@ -5,7 +5,15 @@
     margin:0;
     padding:0;
 }
-
+.important {
+    background-color: #ccffff:
+}
+#title {
+    color: #ff6666;
+}
+li a {
+    text-decoration: none;
+}
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
@@ -24,6 +32,9 @@ h2 {
     margin-bottom: 8px;
 }
 
+.container {
+    text-align: center;
+}
 
 p {
     margin-bottom: 24px;
@@ -99,9 +110,12 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #fafad2;
     clear: both;
-    color: #ffffff;
+    color: #000000;
+    font-family: serif;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 footer ul {
@@ -111,7 +125,6 @@ footer ul {
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
-    
 }
 
 .full, .third, .half {
