@@ -24,6 +24,30 @@ h2 {
     margin-bottom: 8px;
 }
 
+h1, h2 {
+color: #FF0000;
+}
+
+.wrapper nav {
+        border-bottom-style:double;
+   }
+
+.wrapper {
+    border:10px;
+    border-style:double;
+}
+
+header > h1 {
+    color: #0000CC;
+}
+
+p + h2 {
+    color: #33CC99;
+}
+
+span {
+    text-decoration:underline
+}
 
 p {
     margin-bottom: 24px;
