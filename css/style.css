@@ -5,7 +5,15 @@
     margin:0;
     padding:0;
 }
-
+.important {
+    background-color: #ccffff:
+}
+#title {
+    color: #ff6666;
+}
+li a {
+    text-decoration: none;
+}
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
@@ -24,6 +32,9 @@ h2 {
     margin-bottom: 8px;
 }
 
+.container {
+    text-align: center;
+}
 
 p {
     margin-bottom: 24px;
