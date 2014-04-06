@@ -25,10 +25,21 @@ h2 {
     margin-bottom: 8px;
 }
 
+h1,h2,h3,h4,h5,h6{
+    color:#FF00FF;
+}
 
 p {
     margin-bottom: 24px;
 }
+
+section p{
+    background-color:#FF00FF;
+    }
+section img{
+    border-style:dashed;
+}
+
 
 img {
     width: 100%;
@@ -59,6 +70,11 @@ article h1+img {
     margin-bottom: 24px;
 }
 
+article p{
+    font-style:italic;
+}
+
+    
 article h2 {
     margin-bottom: 12px;
 }
