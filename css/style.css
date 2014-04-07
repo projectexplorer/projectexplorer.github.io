@@ -169,7 +169,6 @@ footer ul {
 }
 
 .promo h3 {
-    background-color: #5cb0ff;
     padding: 8px 0;
     text-align: center;
     text-transform: uppercase; 
@@ -183,6 +182,10 @@ footer ul {
     background-color: orange;
 }
 
+.promo.level-elementary h3 {
+    background-color: #5cb0ff;
+}
+
 .promo h3 a {
     color: #ffffff;
     text-decoration: none;
@@ -191,6 +194,40 @@ footer ul {
 .featured img {
     margin-top: 5px;
 }
+
+.one {
+    color: #5cb0ff;
+}
+
+.two {
+    color: #990066;
+}
+
+.social {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.banner.full {
+    border: 1px dashed #5cb0ff;
+}
+
+.half.featured.last{
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 45px;
+}
+
+.half.featured.last h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
 
 /* END modules */
 
