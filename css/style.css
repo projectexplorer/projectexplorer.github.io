@@ -10,20 +10,31 @@ body {
     font: 16px/24px 'Roboto Slab', serif;
 }
 
+body > P { line-height: 1.3 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
 h1 {
     line-height: 48px;
+    color: #FF6633
 }
 
 h2 {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
+    color: #FF6633
 }
 
+ul + p {
+   color: #990066;
+}
+
+#container * {
+ border: 10px;
+}
 
 p {
     margin-bottom: 24px;
@@ -97,6 +108,9 @@ figcaption {
     margin-top: -6px;
 }
 
+footer a {
+  text-decoration:underline;
+}
 
 footer {
     background-color: #5cb0ff;
@@ -129,13 +143,20 @@ footer li { color: #FF8C00; }
 .twothird {
     float: left;
     padding-right: 8%; 
-    width: 58%;    
+    width: 58%;  
 }
 
 .half {
     float: left;
     padding-right: 2%;
     width: 49%;
+}
+
+.half {
+  color: #66FF99;
+  float: left;
+  padding-right: 5%;
+  width: 50%;
 }
 
 .last { /* :last-child isnt' supported in IE8 */
