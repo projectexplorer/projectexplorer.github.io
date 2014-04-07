@@ -24,13 +24,21 @@ h2 {
     margin-bottom: 8px;
 }
 
-
 p {
     margin-bottom: 24px;
 }
 
+p:first-letter{
+    color:#5cb0ff;
+    font-size: 24px;
+}
+
 img {
     width: 100%;
+}
+
+h2 + article {
+    color:grey;
 }
 
 header {
@@ -97,21 +105,58 @@ figcaption {
     margin-top: -6px;
 }
 
+span.dateline { 
+    color:orange;
+}
+
+footer .social { 
+    font-size:32px;
+    line-height:4px;
+}
 
 footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    font-weight:500;
+    
 }
 
 footer ul {
     list-style-type: none;
+    font-size:12px;
 }
 
+footer li {
+       color:#ffffff;
+}
+
+footer li:hover {
+    text-decoration:underline;
+    text-decoration-style:wavy;
+    color:#dddddd;
+}
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
     
+}
+
+.footer {
+    text-align:center;
+    font-size:12px;
+}
+
+.social {
+    margin-left:30%;
+    margin-right:30%;   
+}
+
+.social li{
+    text-align:center;
+    display:inline-block;
+    font-size:12px;
+
 }
 
 .full, .third, .half {
@@ -192,6 +237,10 @@ footer ul {
     margin-top: 5px;
 }
 
+
+h3 a {
+
+}
 /* END modules */
 
 @media (max-width: 600px) {
