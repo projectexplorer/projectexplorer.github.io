@@ -10,6 +10,13 @@ body {
     font: 16px/24px 'Roboto Slab', serif;
 }
 
+.wrapper {
+    background-color:grey; 
+    
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -29,12 +36,16 @@ p {
     margin-bottom: 24px;
 }
 
+
+
+
 img {
     width: 100%;
 }
 
 header {
     margin-bottom: 10px;
+    
 }
 
 nav a {
@@ -68,6 +79,19 @@ aside h3 {
     margin-top: 32px;   
 }
 
+li a {
+    font-family:cursive ;
+}
+
+li:first-of-type+li {
+    color: pink;
+}
+
+div>p {
+    color: red; 
+    font-family: sans-serif
+}
+
 aside h3:first-child {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -85,6 +109,9 @@ aside a {
 
 aside a:after {
    content: " >";
+}
+
+
 }
 
 figure {
