@@ -27,6 +27,11 @@ h2 {
 
 p {
     margin-bottom: 24px;
+    font-size: 16px;
+}
+
+p + h2 {
+    font-size: 33px;
 }
 
 img {
@@ -99,13 +104,46 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #cccccc;
     clear: both;
     color: #ffffff;
 }
 
 footer ul {
     list-style-type: none;
+    
+}
+
+footer li {
+    font-size: 16px;
+    font-family: average, georgia, serif;
+    font-weight: 700;
+}
+
+.items {
+    margin: 10px 5px 0px 100px;
+}
+
+footer p {
+    text-align: center;   
+}
+.social {
+    text-align: center;  
+    margin: 0px 0px 30px 0px;
+}
+
+footer a {
+    color: #ffffff;
+    margin-right: 20px;
+    text-decoration: none;  
+}
+
+footer a:hover {
+    color: #5cb0ff;   
+}
+
+.thirdmore {   
+    text-align: center;
 }
 
 .wrapper {
@@ -132,12 +170,18 @@ footer ul {
 
 .half {
     float: left;
-    padding-right: 2%;
+    padding-right: 1%;
     width: 49%;
 }
 
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
+}
+
+.half.featured.last {
+    border: 1px solid black;
+    padding: 0 3px 0 2px;
+    
 }
 
 .clearfix {
@@ -148,7 +192,11 @@ footer ul {
 /* BEGIN modules */
 
 .dateline {
-    font-weight: 700;
+    font-weight: 800;
+}
+
+p span {
+    color: #5cb0ff;
 }
 
 .banner {
@@ -175,12 +223,27 @@ footer ul {
     text-transform: uppercase; 
 }
 
+.promo h3:hover {
+    background-color: #cccccc;
+    
+}
+
 .promo.level-middle h3 {
     background-color: lime;
 }
 
+.promo.level-middle h3:hover {
+    background-color: #cccccc;
+    
+}
+
 .promo.level-high h3 {
     background-color: orange;
+}
+
+.promo.level-high h3:hover {
+    background-color: #cccccc;
+    
 }
 
 .promo h3 a {
