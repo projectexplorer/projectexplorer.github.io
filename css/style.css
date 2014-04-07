@@ -6,6 +6,10 @@
     padding:0;
 }
 
+.intro
+{
+    background-color:currentColor
+}
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
@@ -27,7 +31,6 @@ h2 {
     line-height: 32px;
     margin-bottom: 8px;
 }
-
 
 p {
     margin-bottom: 24px;
