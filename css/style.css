@@ -1,3 +1,5 @@
+/* Lack of instruction for this exercise is alarming. Considering we've hardly done any instructed work with selectors, I was forced to essentially teach myself via Google. Same goes for the last exercise in which the video, which was very brief, only told us to change font color and after I did so, I was deducted points and essentially called lazy in the instructor response. */
+
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
@@ -29,6 +31,18 @@ p {
     margin-bottom: 24px;
 }
 
+div p {
+    color: #FF6666
+}
+
+p:first-letter {
+    font-size: 24px;
+}
+
+p:first-line {
+    font-style:italic
+}
+
 img {
     width: 100%;
 }
@@ -48,6 +62,10 @@ nav a {
 
 nav a:hover {
     border-bottom: 4px solid #5cb0ff;
+}
+
+a:hover {
+    color: #FF6666
 }
 
 article h1 {
@@ -109,7 +127,7 @@ footer ul {
 }
 
 footer li { 
-    color: #32cd32; 
+    color: #FF6666; 
 }
 
 .wrapper {
