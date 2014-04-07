@@ -27,6 +27,11 @@ h2 {
 
 p {
     margin-bottom: 24px;
+    font-size: 16px;
+}
+
+p + h2 {
+    font-size: 33px;
 }
 
 img {
@@ -165,12 +170,18 @@ footer a:hover {
 
 .half {
     float: left;
-    padding-right: 2%;
+    padding-right: 1%;
     width: 49%;
 }
 
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
+}
+
+.half.featured.last {
+    border: 1px solid black;
+    padding: 0 3px 0 2px;
+    
 }
 
 .clearfix {
@@ -181,7 +192,11 @@ footer a:hover {
 /* BEGIN modules */
 
 .dateline {
-    font-weight: 700;
+    font-weight: 800;
+}
+
+p span {
+    color: #5cb0ff;
 }
 
 .banner {
@@ -208,12 +223,27 @@ footer a:hover {
     text-transform: uppercase; 
 }
 
+.promo h3:hover {
+    background-color: #cccccc;
+    
+}
+
 .promo.level-middle h3 {
     background-color: lime;
 }
 
+.promo.level-middle h3:hover {
+    background-color: #cccccc;
+    
+}
+
 .promo.level-high h3 {
     background-color: orange;
+}
+
+.promo.level-high h3:hover {
+    background-color: #cccccc;
+    
 }
 
 .promo h3 a {
