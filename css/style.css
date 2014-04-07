@@ -6,9 +6,17 @@
     padding:0;
 }
 
+.intro
+{
+    background-color:currentColor
+}
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
+
+body > P {line-height:normal} 
+
+#header. callout { }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
@@ -23,7 +31,6 @@ h2 {
     line-height: 32px;
     margin-bottom: 8px;
 }
-
 
 p {
     margin-bottom: 24px;
@@ -68,6 +75,11 @@ aside h3 {
     margin-top: 32px;   
 }
 
+.class
+{
+    background-color:#777f00
+}
+
 aside h3:first-child {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -77,6 +89,7 @@ aside ul {
     font-size: 12px;
     list-style-type: none;
 }
+div ol>li p
 
 aside a {
     color: #5cb0ff;
@@ -99,13 +112,16 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #ff9988;
     clear: both;
     color: #ffffff;
 }
 
 footer ul {
     list-style-type: none;
+}
+
+footer li {color: #ffffff;
 }
 
 .wrapper {
@@ -135,8 +151,8 @@ footer ul {
     padding-right: 2%;
     width: 49%;
 }
-
 .last { /* :last-child isnt' supported in IE8 */
+    float:right;
     padding-right: 0;
 }
 
@@ -170,17 +186,17 @@ footer ul {
 
 .promo h3 {
     background-color: #5cb0ff;
-    padding: 8px 0;
+    padding: 7px 0;
     text-align: center;
     text-transform: uppercase; 
 }
 
 .promo.level-middle h3 {
-    background-color: lime;
+    background-color: #00ff00;
 }
 
 .promo.level-high h3 {
-    background-color: orange;
+    background-color: #ffa500;
 }
 
 .promo h3 a {
@@ -189,7 +205,7 @@ footer ul {
 }
 
 .featured img {
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 /* END modules */
