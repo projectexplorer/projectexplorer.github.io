@@ -1,3 +1,29 @@
+:root
+{background: green;
+}
+
+li:last-child
+{
+background:gray;
+}
+
+a:link
+{ 
+background-color:orange;
+}
+
+a:visited
+{ 
+background-color:purple;
+}
+
+p:first-letter
+{ 
+font-size:28px;
+color:yellow;
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
@@ -99,13 +125,18 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #000000;
     clear: both;
-    color: #ffffff;
+    color: #ff0000;
+    font-size: 20px;
+    width:1300px
+    
+    
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: square;
+    font-family:'Oswald', sans-serif;
 }
 
 .wrapper {
