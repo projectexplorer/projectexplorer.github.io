@@ -70,6 +70,11 @@ aside h3 {
     margin-top: 32px;   
 }
 
+.class
+{
+    background-color:#777
+}
+
 aside h3:first-child {
     margin-bottom: 10px;
     margin-top: 10px;
