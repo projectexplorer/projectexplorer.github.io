@@ -1,3 +1,24 @@
+
+:root
+{
+background:#00ff00;
+}
+
+p:only-child
+{
+background:#000ff0;
+}
+
+p:nth-child(3n+0)
+{
+background:#ff0000;
+}
+
+a:hover
+{ 
+background-color:yellow;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
