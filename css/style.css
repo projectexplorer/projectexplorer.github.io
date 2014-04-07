@@ -28,8 +28,17 @@ p {
     margin-bottom: 24px;
 }
 
+p:first-letter{
+    color:#5cb0ff;
+    font-size: 24px;
+}
+
 img {
     width: 100%;
+}
+
+h2 + article {
+    color:grey;
 }
 
 header {
@@ -96,6 +105,14 @@ figcaption {
     margin-top: -6px;
 }
 
+span.dateline { 
+    color:orange;
+}
+
+footer .social { 
+    font-size:32px;
+    line-height:4px;
+}
 
 footer {
     background-color: #5cb0ff;
@@ -131,8 +148,8 @@ footer li:hover {
 }
 
 .social {
-    margin-left:40%;
-    margin-right:40%;   
+    margin-left:30%;
+    margin-right:30%;   
 }
 
 .social li{
@@ -220,6 +237,10 @@ footer li:hover {
     margin-top: 5px;
 }
 
+
+h3 a {
+
+}
 /* END modules */
 
 @media (max-width: 600px) {
