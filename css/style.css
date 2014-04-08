@@ -50,7 +50,6 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
-
 article h1 {
     margin-bottom: 8px;
 }
@@ -161,9 +160,6 @@ width: 100%;
     
 }
 
-section #picture: nth-child(2) {
-padding: 10px;
-}
 
 .full, .third, .half {
     margin-bottom: 32px;
@@ -191,6 +187,10 @@ padding: 10px;
     padding-right: 0;
 }
 
+section #picture: nth-child(2) {
+padding: 10px;
+}
+
 .clearfix {
     clear: both;
     display: block;
@@ -205,7 +205,6 @@ padding: 10px;
 .dateline:first-child{
     font-size: 20px
 }
-
 
 .banner {
     font-family: 'Oswald', sans-serif;
@@ -223,15 +222,6 @@ padding: 10px;
 .promo img {
     margin-bottom: -6px;
 }
-
-p+article{
-color: #5cb0ff;
-}
-
-section + p{
-font-size:20px;
-}
-
 
 .promo h3 {
     background-color: #5cb0ff;
@@ -255,6 +245,20 @@ font-size:20px;
 
 .featured img {
     margin-top: 5px;
+}
+
+* {
+color: #FFA500;
+}
+
+img + p {
+font-size:20px;
+color: #00FF00;
+}
+
+nav a, h2, h1 {
+    font-size: 27px;
+    color: #5cb0ff;
 }
 
 /* END modules */
