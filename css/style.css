@@ -50,6 +50,7 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
+
 article h1 {
     margin-bottom: 8px;
 }
@@ -160,6 +161,10 @@ width: 100%;
     
 }
 
+section #picture: nth-child(2) {
+padding: 10px;
+}
+
 .full, .third, .half {
     margin-bottom: 32px;
 }
@@ -197,6 +202,11 @@ width: 100%;
     font-weight: 700;
 }
 
+.dateline:first-child{
+    font-size: 20px
+}
+
+
 .banner {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -213,6 +223,15 @@ width: 100%;
 .promo img {
     margin-bottom: -6px;
 }
+
+p+article{
+color: #5cb0ff;
+}
+
+section + p{
+font-size:20px;
+}
+
 
 .promo h3 {
     background-color: #5cb0ff;
