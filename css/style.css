@@ -216,3 +216,19 @@ footer ul {
     }
     
 }
+
+:first-child {
+    color: #ff69b4;
+}
+
+:first-letter {
+    font-size: 42px;
+}
+
+.mark {
+    width: 400px;
+}
+
+div p {
+   margin-bottom: 700px;
+}
