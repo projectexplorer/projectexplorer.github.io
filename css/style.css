@@ -28,11 +28,17 @@ h2 {
 p {
     margin-bottom: 24px;
 }
-
+.dateline {
+    color:orange;
+    font-size: 18px;
+}
 img {
     width: 100%;
 }
 
+.half featured {
+padding-left:10px; 
+}
 header {
     margin-bottom: 10px;
 }
@@ -95,6 +101,7 @@ figcaption {
     font-size: 12px;
     margin-bottom: 24px;
     margin-top: -6px;
+
 }
 
 
@@ -104,14 +111,39 @@ footer {
     color: #ffffff;
 }
 
+
 footer ul {
     list-style-type: none;
 }
 
+
+ 
+footer li {
+        color:#000000;
+        font-family:pt sans;
+        font-size:14px;
+        padding-top:1%;
+    
+    
+}
+ 
+ a:link{color:#000000;}
+ a:visited{color:#000000;}
+ a:hover {}
+ a:active{}
+
+#copy {
+margin-top:10px;
+
+}
+
+.social{
+padding-bottom:5px; 
+}
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
-    
+   
 }
 
 .full, .third, .half {
