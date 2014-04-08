@@ -114,11 +114,11 @@ footer ul {
     
 }
 
-.full, .third, .thirdmiddle, .thirdlast, .half {
+.full, .third, .half {
     margin-bottom: 32px;
 }
 
-.third, .thirdmiddle, .thirdlast {
+.third, {
     float: left;
     padding-right: 2%; 
     width: 32%;
