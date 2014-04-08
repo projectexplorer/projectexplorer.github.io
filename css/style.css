@@ -97,6 +97,18 @@ figcaption {
     margin-top: -6px;
 }
 
+.dateline {
+    color:#FF6600;
+    
+}
+
+section #intro {
+    font-weight:75;     
+}
+
+.promos {
+    color:#bb0100;
+}
 
 footer {
     background-color: #00CCFF;
@@ -135,7 +147,10 @@ footer nav {
        
   }
 
-
+.wrapper.third {
+    width: 20%; 
+    
+}
 
 .wrapper {
     margin: 0 auto;
