@@ -114,17 +114,17 @@ footer ul {
     
 }
 
-.full, .third, .half {
+.full, .third, .thirdmiddle, .thirdlast, .half {
     margin-bottom: 32px;
 }
 
-.third {
+.third, .thirdmiddle, .thirdlast {
     float: left;
     padding-right: 2%; 
     width: 32%;
 }
 
-.twothird {
+.twothird, {
     float: left;
     padding-right: 8%; 
     width: 58%;    
@@ -192,6 +192,17 @@ footer ul {
     margin-top: 5px;
 }
 
+.third li{
+    color:#6495ED;
+    font-family:"impact", fantasy;
+}
+
+.social li {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    display:inline;
+    color:#8B008B;
+}
+
 /* END modules */
 
 @media (max-width: 600px) {
@@ -200,7 +211,7 @@ footer ul {
         width: 95%;
     }
     
-    .half, .third, .twothird {
+    .half, .third, .thirdmiddle, .thirdlast, .twothird {
         width: 100%;
     }
     
