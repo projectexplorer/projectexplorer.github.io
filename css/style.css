@@ -24,7 +24,6 @@ h2 {
     margin-bottom: 8px;
 }
 
-
 p {
     margin-bottom: 24px;
 }
@@ -62,6 +61,10 @@ article h2 {
     margin-bottom: 12px;
 }
 
+article p:first-child {
+    color: #5cb0ff;
+}
+    
 aside h3 {
     font-size: 14px;
     margin-bottom: 4px;
@@ -97,7 +100,6 @@ figcaption {
     margin-top: -6px;
 }
 
-
 footer {
     background-color: #5cb0ff;
     clear: both;
@@ -124,16 +126,28 @@ footer ul {
     width: 32%;
 }
 
+.third li {
+    color: #FFA500;
+}
+
 .twothird {
     float: left;
     padding-right: 8%; 
     width: 58%;    
 }
 
+.twothird h2 {
+    color: #FFA500;
+}
+
 .half {
     float: left;
     padding-right: 2%;
     width: 49%;
+}
+
+.half h2 {
+    color: orange;
 }
 
 .last { /* :last-child isnt' supported in IE8 */
@@ -190,6 +204,10 @@ footer ul {
 
 .featured img {
     margin-top: 5px;
+}
+
+.social li {
+    color: #000;
 }
 
 /* END modules */
