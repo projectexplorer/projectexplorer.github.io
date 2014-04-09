@@ -108,6 +108,26 @@ footer ul {
     list-style-type: none;
 }
 
+h3:first-letter {
+    color:#FF0000;
+}
+
+h2+p {
+    color:#FF0066;
+}
+
+section h2:first-of-type {
+    color:#FF6600;
+}
+
+article h2:first-of-type {
+    color:#990099;
+}
+
+a:hover {
+    color:#6600CC;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -211,7 +231,7 @@ footer ul {
         width: 95%;
     }
     
-    .half, .third, .thirdmiddle, .thirdlast, .twothird {
+    .half, .third, .twothird {
         width: 100%;
     }
     
