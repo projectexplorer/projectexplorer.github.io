@@ -108,6 +108,26 @@ footer ul {
     list-style-type: none;
 }
 
+h3:first-letter {
+    color:#FF0000;
+}
+
+h2+p {
+    color:#FF0066;
+}
+
+section h2:first-of-type {
+    color:#FF6600;
+}
+
+article h2:first-of-type {
+    color:#990099;
+}
+
+a:hover {
+    color:#6600CC;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -118,13 +138,13 @@ footer ul {
     margin-bottom: 32px;
 }
 
-.third {
+.third, {
     float: left;
     padding-right: 2%; 
     width: 32%;
 }
 
-.twothird {
+.twothird, {
     float: left;
     padding-right: 8%; 
     width: 58%;    
@@ -190,6 +210,17 @@ footer ul {
 
 .featured img {
     margin-top: 5px;
+}
+
+.third li{
+    color:#6495ED;
+    font-family:"impact", fantasy;
+}
+
+.social li {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    display:inline;
+    color:#8B008B;
 }
 
 /* END modules */
