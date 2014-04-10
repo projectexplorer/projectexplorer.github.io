@@ -102,13 +102,22 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    text-align: center
+       
+     
 }
 
 footer ul {
     list-style-type: none;
+    font-size: .9em;
 }
 
-footer li { color: blue;}
+footer li { color: #00FFFF;
+font-size: .7em;
+font-family:"Times New Roman";
+      
+
+}
 
 .wrapper {
     margin: 0 auto;
