@@ -119,7 +119,7 @@ footer ul {
 }
 
 .third {
-    float: none;
+    float: left;
     padding-right: 2%; 
     width: 32%;
 }
