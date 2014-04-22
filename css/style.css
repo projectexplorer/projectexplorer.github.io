@@ -193,6 +193,7 @@ footer ul {
 }
 .social {
     border: 1px dashed blue;
+    list-style-position:inside;
 }
 
 /* END modules */
