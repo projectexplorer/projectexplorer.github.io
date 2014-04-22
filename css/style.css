@@ -99,13 +99,13 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: orange;
     clear: both;
     color: #ffffff;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .wrapper {
@@ -190,6 +190,10 @@ footer ul {
 
 .featured img {
     margin-top: 5px;
+}
+.social {
+    border: 1px dashed blue;
+    list-style-position:inside;
 }
 
 /* END modules */
