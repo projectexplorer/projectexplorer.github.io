@@ -191,6 +191,9 @@ footer ul {
 .featured img {
     margin-top: 5px;
 }
+.social {
+    border: 1px dashed blue;
+}
 
 /* END modules */
 
