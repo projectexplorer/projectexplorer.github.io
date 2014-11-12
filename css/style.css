@@ -102,6 +102,7 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #000;
+    font: 12px/18px 'Roboto Slab', serif;
 }
 
 footer ul {
