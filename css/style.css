@@ -99,13 +99,30 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #003366; /* changed background color */
     clear: both;
     color: #ffffff;
 }
 
+/* Created links and added hover effects */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #000000;
+}
+
 footer ul {
     list-style-type: none;
+    line-height: 30px; /* Added spacing to lists to make easier to read */
+}
+
+/* Changed copyright text to make less visually obtrusive */
+footer p {
+    font-size: 10px;
+    font-style: italic;
 }
 
 .wrapper {
@@ -208,5 +225,10 @@ footer ul {
         padding: 0;
         text-align: left;   
     }
-    
+   
+/* Made links larger, farther apart to make easier to activate for mobile user */
+    footer a {
+        font-size: 20px;
+        line-height: 45px;
+    }
 }
