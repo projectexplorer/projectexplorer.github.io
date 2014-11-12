@@ -101,11 +101,26 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #000;
 }
 
 footer ul {
     list-style-type: none;
+}
+
+footer li { color: #FFFF00 ; 
+}
+
+footer a {
+    border-bottom: 3px solid #5cb0ff;
+    display: list-item;
+    font: 18px/24px 'Oswald', sans-serif;
+    padding: 0px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border-bottom: 4px solid #FFFFFF;
 }
 
 .wrapper {
