@@ -102,10 +102,18 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    font-family: sans-serif;
+}
+
+footer li { 
+    color: grey;
+    border: solid;
+    border-color: black;
 }
 
 footer ul {
     list-style-type: none;
+    background-color: lime;
 }
 
 .wrapper {
