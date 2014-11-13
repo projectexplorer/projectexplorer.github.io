@@ -108,6 +108,13 @@ footer ul {
     list-style-type: none;
 }
 
+ footer li {color: purple;}
+    
+ footer {font-style: oblique;}
+
+ footer {font-family: monospace;}
+
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
