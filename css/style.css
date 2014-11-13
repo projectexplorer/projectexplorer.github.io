@@ -96,17 +96,21 @@ figcaption {
     margin-bottom: 24px;
     margin-top: -6px;
 }
-
+                                                                                                                                                                                                                                                                                                                
 
 footer {
-    background-color: #5cb0ff;
+    background-color: pink;
     clear: both;
-    color: #ffffff;
+    color: #ffffff; 
+    font-weight: 100
 }
 
 footer ul {
     list-style-type: none;
+    text-decoration: none
 }
+
+footer li {color: grey}
 
 .wrapper {
     margin: 0 auto;
