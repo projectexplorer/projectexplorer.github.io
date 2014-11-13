@@ -33,6 +33,10 @@ img {
     width: 100%;
 }
 
+.photo-with-caption {
+    font-family: sans-serif; 
+}
+
 header {
     margin-bottom: 10px;
 }
@@ -60,6 +64,11 @@ article h1+img {
 
 article h2 {
     margin-bottom: 12px;
+}
+
+
+.h2, p {
+    font-size: 16px;
 }
 
 aside h3 {
@@ -99,24 +108,45 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #FF9933;
     clear: both;
+    color: #000000;
+    font-size: 14px;
+    font-family: sans-serif, arial; 
+    text-decoration: none;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:link {}
+footer a:visited {}
+footer a:hover {
     color: #ffffff;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: none; 
 }
+
 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
-    
 }
 
 .full, .third, .half {
     margin-bottom: 32px;
 }
+
+.second {
+    float: left;
+    padding-right: 2%; 
+    width: 32%;
+}
+
 
 .third {
     float: left;
@@ -124,11 +154,20 @@ footer ul {
     width: 32%;
 }
 
+.fourth {
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 12px;
+     
+}
+
+
 .twothird {
     float: left;
     padding-right: 8%; 
-    width: 58%;    
+    width: 58%;  
 }
+
 
 .half {
     float: left;
@@ -189,7 +228,7 @@ footer ul {
 }
 
 .featured img {
-    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 /* END modules */
