@@ -102,10 +102,21 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    padding: 10px;
+    height: auto;
 }
 
+/*
 footer ul {
     list-style-type: none;
+}
+*/
+footer p{
+    margin: 0;
+    padding: 0;
+}
+.allrights{
+    font-size: 9pt;
 }
 
 .wrapper {
@@ -120,8 +131,9 @@ footer ul {
 
 .third {
     float: left;
-    padding-right: 2%; 
-    width: 32%;
+    padding-right: 9%; 
+    width: 20%;
+    font-family: "Oswald",sans-serif;
 }
 
 .twothird {
@@ -191,6 +203,7 @@ footer ul {
 .featured img {
     margin-top: 5px;
 }
+
 
 /* END modules */
 
