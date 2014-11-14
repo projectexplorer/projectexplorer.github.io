@@ -10,6 +10,7 @@ body {
     font: 16px/24px 'Roboto Slab', serif;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -24,10 +25,15 @@ h2 {
     margin-bottom: 8px;
 }
 
-
 p {
     margin-bottom: 24px;
 }
+
+p > .dateline { background-color: #5cb0ff; }
+
+
+
+.banner p { background-color: #5cb0ff; }
 
 img {
     width: 100%;
@@ -49,6 +55,13 @@ nav a {
 nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
+
+#donate { background-color: #5cb0ff;
+    
+}
+
+nav a:nth-last-child { background-color: }
+
 
 article h1 {
     margin-bottom: 8px;
@@ -101,7 +114,6 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #000;
     font: 12px/18px 'Roboto Slab', serif;
 }
 
@@ -123,6 +135,7 @@ footer a {
 footer a:hover {
     border-bottom: 4px solid #FFFFFF;
 }
+
 
 .wrapper {
     margin: 0 auto;
@@ -189,6 +202,7 @@ footer a:hover {
     padding: 8px 0;
     text-align: center;
     text-transform: uppercase; 
+    
 }
 
 .promo.level-middle h3 {
@@ -203,6 +217,16 @@ footer a:hover {
     color: #ffffff;
     text-decoration: none;
 }
+
+.promo.level-elementary a {
+    font: 18px/24px 'Comic Sans MS', sans-serif; }
+
+.promo.level-middle a {
+    font: 18px/24px 'Arial', sans-serif; }
+
+.promo.level-high a {
+    font: 18/24px;
+    font-family: "Typewriter", serif; }
 
 .featured img {
     margin-top: 5px;
