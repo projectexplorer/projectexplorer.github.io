@@ -18,13 +18,19 @@ h1 {
     line-height: 48px;
 }
 
+h1.third  {
+    font-style: italic;
+}
+
 h2 {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
 }
 
-
+section p {
+    font-style: italic;
+}
 p {
     margin-bottom: 24px;
 }
@@ -156,6 +162,13 @@ footer ul {
     font-weight: 700;
 }
 
+        div.third.last p{
+            font-size: 15px;
+        }
+
+section.banner.full h2 {
+    font-size: 37px;
+}
 .banner {
     font-family: 'Oswald', sans-serif;
     text-align: center;
