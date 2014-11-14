@@ -18,12 +18,40 @@ h1 {
     line-height: 48px;
 }
 
+h1 {
+    color: #F7EAEA
+        
+}
+
+h1 {background-color: #494040
+    
+}
+
 h2 {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
 }
 
+h2 {
+    background-color: #F5A9F2
+        
+        
+}
+
+    
+
+h3 {
+    font-size: 19px;
+    font-stretch: extra-condensed
+    
+
+}
+    
+h4 {
+    font-style: normal
+
+}
 
 p {
     margin-bottom: 24px;
@@ -35,6 +63,14 @@ img {
 
 header {
     margin-bottom: 10px;
+}
+
+header {background-color: #B40431
+    
+}
+
+header {font-style: comic sans;
+    
 }
 
 nav a {
