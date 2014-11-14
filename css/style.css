@@ -100,21 +100,36 @@ figcaption {
 
 footer {
     background-color: #19B8BF;
+    font-weight: 100;
     clear: both;
     color: #ffffff;
 }
 
 footer ul {
     list-style-type: none;
+    padding-top: 10px;
 }
 
 footer li {
+    padding-left: 10px;
+    padding-top: 5px;
     color: #ffffff;  
 } 
 
-.social {
-    text-align: right; 
+footer p {
+    font-size: 12px;
+    text-align: right;
 }
+
+.social {
+    text-align: right;
+}
+
+.social a {
+    text-decoration: none;
+    color: #ffffff;
+}
+    
 
 .wrapper {
     margin: 0 auto;
@@ -176,7 +191,7 @@ footer li {
 }
 
 .promo h3 {
-    background-color: #5cb0ff;
+    background-color: #19B8BF;
     padding: 8px 0;
     text-align: center;
     text-transform: uppercase; 
