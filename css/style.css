@@ -14,13 +14,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {color:#5cb0ff}
+
 h1 {
     line-height: 48px;
 }
 
+h1 {color: #5cb0ff; }
+
 h2 {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 26px;
+    line-height: 34px;
     margin-bottom: 8px;
 }
 
@@ -39,7 +43,7 @@ header {
 
 nav a {
     border-bottom: 3px solid #ffffff;
-    color: #000;
+    color: #5cb0ff;
     display: inline-block;
     font: 18px/24px 'Oswald', sans-serif;
     padding: 10px;
@@ -108,6 +112,8 @@ footer ul {
     list-style-type: none;
 }
 
+footer li {color: black;} 
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -150,6 +156,8 @@ footer ul {
 .dateline {
     font-weight: 700;
 }
+
+
 
 .banner {
     font-family: 'Oswald', sans-serif;
