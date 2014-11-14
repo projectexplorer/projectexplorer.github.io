@@ -76,10 +76,18 @@ aside h3:first-child {
 aside ul {
     font-size: 12px;
     list-style-type: none;
+    color: white;
 }
+aside ul li {
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+}
+aside ul li:hover{
+   background-color: #5cb0ff;
 
+}
 aside a {
-    color: #5cb0ff;
+    color: white;
     text-decoration: none;
 }
 
@@ -89,6 +97,10 @@ aside a:after {
 
 figure {
     margin-bottom: -8px;
+}
+
+.sideImg:hover{
+    opacity: 0.8;
 }
 
 figcaption {
@@ -102,10 +114,21 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    padding: 10px;
+    height: auto;
 }
 
+/*
 footer ul {
     list-style-type: none;
+}
+*/
+footer p{
+    margin: 0;
+    padding: 0;
+}
+.allrights{
+    font-size: 9pt;
 }
 
 .wrapper {
@@ -120,14 +143,18 @@ footer ul {
 
 .third {
     float: left;
-    padding-right: 2%; 
-    width: 32%;
+    padding-right: 9%; 
+    width: 20%;
+    font-family: "Oswald",sans-serif;
 }
 
 .twothird {
     float: left;
     padding-right: 8%; 
     width: 58%;    
+}
+.twothird h1{
+    border-bottom: 2px solid black;
 }
 
 .half {
@@ -154,6 +181,7 @@ footer ul {
 .banner {
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    float: right;
 }
 
 .banner img {
@@ -191,6 +219,7 @@ footer ul {
 .featured img {
     margin-top: 5px;
 }
+
 
 /* END modules */
 
