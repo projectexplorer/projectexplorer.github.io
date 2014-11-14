@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
 * {
@@ -99,7 +99,7 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #19B8BF;
     clear: both;
     color: #ffffff;
 }
@@ -108,10 +108,17 @@ footer ul {
     list-style-type: none;
 }
 
+footer li {
+    color: #ffffff;  
+} 
+
+.social {
+    text-align: right; 
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
-    
 }
 
 .full, .third, .half {
