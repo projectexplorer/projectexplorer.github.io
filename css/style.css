@@ -99,13 +99,28 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #802B68;
     clear: both;
     color: #ffffff;
+    padding-top: -48px;   
 }
 
 footer ul {
     list-style-type: none;
+}
+
+footer li { 
+    color: #9FA838;
+    font-size: 16px; 
+    margin-left: 3px; 
+    padding-left: 12px;
+    margin: 0px;  
+}
+
+footer p {
+    color: #9FA838;
+    margin-left: 3px;
+    padding-left: 12px;  
 }
 
 .wrapper {
