@@ -164,9 +164,15 @@ footer p {
 
 /* BEGIN modules */
 
+.dateline-text {
+    font-style: italic;
+}
+
 .dateline {
     font-weight: 700;
+    font-style: normal;
 }
+
 
 .banner {
     font-family: 'Oswald', sans-serif;
@@ -179,6 +185,7 @@ footer p {
 
 .banner p {
     padding: 0 15%;
+    font-size: 20px; 
 }
 
 .promo img {
@@ -207,6 +214,10 @@ footer p {
 
 .featured img {
     margin-top: 5px;
+}
+
+.img-link:hover {
+    color: #000000;
 }
 
 /* END modules */
