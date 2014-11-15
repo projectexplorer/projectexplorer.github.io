@@ -10,6 +10,10 @@ body {
     font: 16px/24px 'Roboto Slab', serif;
 }
 
+header h1 {
+    background-color: #ffff66;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -28,6 +32,7 @@ h2 {
 p {
     margin-bottom: 24px;
 }
+
 
 img {
     width: 100%;
@@ -48,6 +53,11 @@ nav a {
 
 nav a:hover {
     border-bottom: 4px solid #5cb0ff;
+}
+
+.banner img {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 article h1 {
@@ -97,21 +107,36 @@ figcaption {
     margin-top: -6px;
 }
 
-
 footer {
-    background-color: #5cb0ff;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #66cdaa;
     clear: both;
-    color: #ffffff;
+    padding-left: 24px;
 }
 
 footer ul {
+    list-style-type:circle;
+    color: #778899;
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #7b68ee;
+    padding-top: 5px;
+}
+
+.social {
+    font-size: 12px;
+    line-height: 15px;
     list-style-type: none;
+    outline-style: dotted;
+    padding-left: 8px;
 }
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
-    
+    max-width: 960px;    
 }
 
 .full, .third, .half {
@@ -136,8 +161,16 @@ footer ul {
     width: 49%;
 }
 
+.dateline {
+    text-decoration: underline;
+}
+    
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
+}
+
+.third, .third, .third last {
+    text-transform: uppercase;
 }
 
 .clearfix {
@@ -186,6 +219,12 @@ footer ul {
 .promo h3 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.promo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffff66;
 }
 
 .featured img {
