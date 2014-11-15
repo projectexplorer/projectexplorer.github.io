@@ -6,12 +6,20 @@
     padding:0;
 }
 
+header + img {
+    margin top: 5px;
+}
+
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
+}
+
+div img {
+    width: 100%;
 }
 
 h1 {
@@ -24,13 +32,28 @@ h2 {
     margin-bottom: 8px;
 }
 
+h2 + p {
+    margin-top: 0;
+}
 
+h1, h2 {
+    color: #DC143C;
+}
+
+p img {
+    margin-top: 0;
+}
+    
 p {
     margin-bottom: 24px;
 }
 
 img {
     width: 100%;
+}
+
+.banner {
+    color: #000000;
 }
 
 header {
@@ -57,6 +80,10 @@ article h1 {
 article h1+img {
     margin-bottom: 24px;
 }
+
+h2 + p { 
+    margin-top: 0; 
+} 
 
 article h2 {
     margin-bottom: 12px;
@@ -99,23 +126,39 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
-    clear: both;
+    list-style-type: none; 
+    background-color: #008B8B;
+    margin-top: 10px; 
+    padding: 10px; 
+    clear: both; 
     color: #ffffff;
+    line-height: 20px;
 }
 
 footer ul {
     list-style-type: none;
+    text-align: center
+}
+
+footer li { 
+    color: #000000;
+    font-weight: 700px; 
+    font-size: 20px;
+    font-family: sans-serif
+    
 }
 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
+
+
     
 }
 
 .full, .third, .half {
     margin-bottom: 32px;
+    text-align: center;
 }
 
 .third {
