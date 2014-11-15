@@ -2,12 +2,17 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0; 
 }
-
+ 
+  
 body {
     font: 16px/24px 'Roboto Slab', serif;
+}
+ 
+*article {
+    font-size: 24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,8 +28,7 @@ h2 {
     line-height: 32px;
     margin-bottom: 8px;
 }
-
-
+ 
 p {
     margin-bottom: 24px;
 }
@@ -35,6 +39,10 @@ img {
 
 header {
     margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 48px
 }
 
 nav a {
@@ -49,7 +57,7 @@ nav a {
 nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
-
+ 
 article h1 {
     margin-bottom: 8px;
 }
@@ -57,10 +65,16 @@ article h1 {
 article h1+img {
     margin-bottom: 24px;
 }
-
+ 
 article h2 {
-    margin-bottom: 12px;
+    margin-bottom: 12px; 
 }
+
+article h2+img {
+    margin-bottom: 24px;
+}
+
+ 
 
 aside h3 {
     font-size: 14px;
@@ -68,6 +82,7 @@ aside h3 {
     margin-top: 32px;   
 }
 
+ 
 aside h3:first-child {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -79,7 +94,7 @@ aside ul {
 }
 
 aside a {
-    color: #5cb0ff;
+    color: #9FA838;
     text-decoration: none;
 }
 
@@ -96,18 +111,38 @@ figcaption {
     margin-bottom: 24px;
     margin-top: -6px;
 }
-
+  
+promo h3:first-child {
+    margin-bottom: 12px;
+}
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #802B68;
     clear: both;
     color: #ffffff;
+    padding-top: -48px;   
 }
+ 
 
 footer ul {
     list-style-type: none;
 }
+    
 
+footer li { 
+    color: #9FA838;
+    font-size: 16px; 
+    margin-left: 3px; 
+    padding-left: 12px;
+    margin: 0px;  
+}
+ 
+footer p {
+    color: #9FA838;
+    margin-left: 3px;
+    padding-left: 12px;  
+}
+ 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -135,7 +170,7 @@ footer ul {
     padding-right: 2%;
     width: 49%;
 }
-
+ 
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
 }
@@ -164,6 +199,10 @@ footer ul {
     padding: 0 15%;
 }
 
+.promo img+h3 {
+    margin-bottom: 4px;
+}
+
 .promo img {
     margin-bottom: -6px;
 }
@@ -188,10 +227,11 @@ footer ul {
     text-decoration: none;
 }
 
-.featured img {
-    margin-top: 5px;
-}
-
+.social {
+    margin-left: -650px;
+    margin-right: 568px;
+     
+      
 /* END modules */
 
 @media (max-width: 600px) {
