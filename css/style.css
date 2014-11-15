@@ -7,19 +7,22 @@
 }
 
 body {
-    font: 16px/24px 'Roboto Slab', serif;
+    font: 18px/24px 'Oswald', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
+    font-size: 24px;
 }
 
 h1 {
     line-height: 48px;
+    font-size: 50px;
+    font-color: #5cb0ff;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 32px;
     margin-bottom: 8px;
 }
@@ -34,20 +37,20 @@ img {
 }
 
 header {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 nav a {
     border-bottom: 3px solid #ffffff;
     color: #000;
-    display: inline-block;
-    font: 18px/24px 'Oswald', sans-serif;
+    display: inline;
+    font: 25px/50px 'Oswald', sans-serif;
     padding: 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    border-bottom: 4px solid #5cb0ff;
+    border-bottom: 4px dotted #00FF00;
 }
 
 article h1 {
@@ -99,13 +102,21 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #00FF00;
     clear: both;
     color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Oswald', sans-serif;
+    font: 18px;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style: none;
+    color: #ffffff;
+    line-height: 30px;
 }
 
 .wrapper {
@@ -115,12 +126,12 @@ footer ul {
 }
 
 .full, .third, .half {
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 
 .third {
     float: left;
-    padding-right: 2%; 
+    padding-right: 0%; 
     width: 32%;
 }
 
@@ -152,7 +163,7 @@ footer ul {
 }
 
 .banner {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', serif;
     text-align: center;
 }
 
@@ -190,6 +201,11 @@ footer ul {
 
 .featured img {
     margin-top: 5px;
+    
+a:visited, a:hover, a:link, a:active{
+    color: #FFCCFF;
+    text-decoration: none;
+}
 }
 
 /* END modules */
@@ -207,6 +223,3 @@ footer ul {
     .banner p {
         padding: 0;
         text-align: left;   
-    }
-    
-}
