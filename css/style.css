@@ -10,6 +10,7 @@ body {
     font: 16px/24px 'Roboto Slab', serif;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -71,6 +72,14 @@ aside h3 {
 aside h3:first-child {
     margin-bottom: 10px;
     margin-top: 10px;
+    
+a:hover{
+    color:"black";
+a:link{ 
+    color:"blue";
+}
+a:visited{
+    color:"#9FFFF";
 }
 
 aside ul {
@@ -212,3 +221,4 @@ footer li {font family:"Georgia,arial, serif";}
     }
     
 }
+
