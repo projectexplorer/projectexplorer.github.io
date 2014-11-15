@@ -105,7 +105,7 @@ footer {
     background-color: #00FF00;
     clear: both;
     color: #ffffff;
-    padding-top: 0px;
+    padding-top: 4px;
     padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -113,14 +113,10 @@ footer {
     font: 18px;
 }
 
-footer li {
+footer ul {
     list-style: none;
     color: #ffffff;
-    line-height: 28px;
-}
-
-ul li {
-    margin: 0 5px;
+    line-height: 30px;
 }
 
 .wrapper {
@@ -130,12 +126,12 @@ ul li {
 }
 
 .full, .third, .half {
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 
 .third {
     float: left;
-    padding-right: 2%; 
+    padding-right: 0%; 
     width: 32%;
 }
 
