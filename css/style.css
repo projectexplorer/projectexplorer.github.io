@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 4px solid #5cb0ff;
+    border-bottom: 4px solid #00FF00;
 }
 
 article h1 {
@@ -215,6 +215,3 @@ footer li {
     .banner p {
         padding: 0;
         text-align: left;   
-    }
-    
-}
