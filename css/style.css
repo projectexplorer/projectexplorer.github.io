@@ -101,11 +101,21 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #FAFAD2;
 }
 
 footer ul {
     list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color:#FAFAD2
+}
+
+footer a:hover { 
+    color: #ffffff;
+
 }
 
 .wrapper {
@@ -192,6 +202,8 @@ footer ul {
     margin-top: 5px;
 }
 
+
+
 /* END modules */
 
 @media (max-width: 600px) {
@@ -209,4 +221,14 @@ footer ul {
         text-align: left;   
     }
     
-}
+    footer {
+        text-align: center;
+        font-size:12px;
+    }
+    
+    footer p {
+        margin-bottom:auto;
+    
+    }
+    
+    
