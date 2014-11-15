@@ -12,21 +12,27 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
+   
 }
 
 h1 {
     line-height: 48px;
 }
 
+nav {
+font-weight: 1500;
+}
+
 h2 {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
-}
-
+    border-bottom: 3px solid black;
+ }
 
 p {
     margin-bottom: 24px;
+    
 }
 
 img {
@@ -49,6 +55,7 @@ nav a {
 nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
+
 
 article h1 {
     margin-bottom: 8px;
@@ -99,7 +106,7 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: lavender;
     clear: both;
     color: #ffffff;
 }
@@ -108,13 +115,10 @@ footer ul {
     list-style-type: none;
 }
 
- footer li {color: purple;}
+ footer {color: black;}
     
- footer {font-style: oblique;}
-
- footer {font-family: monospace;}
-
-
+ footer {font-style: normal;}
+ 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -169,6 +173,7 @@ footer ul {
 
 .banner p {
     padding: 0 15%;
+    font-weight: 500;
 }
 
 .promo img {
@@ -176,24 +181,25 @@ footer ul {
 }
 
 .promo h3 {
-    background-color: #5cb0ff;
+    background-color: purple;
     padding: 8px 0;
     text-align: center;
     text-transform: uppercase; 
 }
 
 .promo.level-middle h3 {
-    background-color: lime;
+    background-color: navy;
 }
 
 .promo.level-high h3 {
-    background-color: orange;
+    background-color: indigo;
 }
 
 .promo h3 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 
 .featured img {
     margin-top: 5px;
