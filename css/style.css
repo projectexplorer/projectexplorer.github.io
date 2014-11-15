@@ -25,9 +25,13 @@ h2 {
 }
 
 
+
 p {
     margin-bottom: 24px;
 }
+
+
+
 
 img {
     width: 100%;
@@ -37,8 +41,12 @@ header {
     margin-bottom: 10px;
 }
 
+header h1:hover {
+    color: #00BFFF;	
+}
+
 nav a {
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
     color: #000;
     display: inline-block;
     font: 18px/24px 'Oswald', sans-serif;
@@ -101,11 +109,21 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #FAFAD2;
 }
 
 footer ul {
     list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color:#FAFAD2
+}
+
+footer a:hover { 
+    color: #ffffff;
+
 }
 
 .wrapper {
@@ -164,6 +182,10 @@ footer ul {
     padding: 0 15%;
 }
 
+.banner h2{
+    color: #00BFFF;	 
+}
+
 .promo img {
     margin-bottom: -6px;
 }
@@ -192,6 +214,23 @@ footer ul {
     margin-top: 5px;
 }
 
+.dateline {
+    color: #00BFFF;	 
+}
+
+p:first-child {
+    color: #87CEFA;
+}
+
+h1, nav a {
+    color:#87CEFA;
+}
+
+.third li:hover {
+    display:inline;
+    border-bottom: 1px solid #ffffff;
+}
+
 /* END modules */
 
 @media (max-width: 600px) {
@@ -209,4 +248,18 @@ footer ul {
         text-align: left;   
     }
     
-}
+    footer {
+        text-align: center;
+        font-size:12px;
+    }
+    
+    footer p {
+        margin-bottom:auto;
+    
+    }
+    
+    
+    
+
+    
+    
