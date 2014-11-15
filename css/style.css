@@ -99,15 +99,19 @@ figcaption {
 
 
 footer {
+    
+    font: 16px/24px 'Oswald', san-serif;
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #191975;
+    text-transform: uppercase;
 }
 
 footer ul {
     list-style-type: none;
 }
 
+footer li{ color: #191975; }
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
