@@ -14,13 +14,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {color:#5cb0ff}
+
 h1 {
     line-height: 48px;
 }
 
+h1 {color: #5cb0ff; }
+
 h2 {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 26px;
+    line-height: 34px;
     margin-bottom: 8px;
 }
 
@@ -33,13 +37,13 @@ img {
     width: 100%;
 }
 
-header {
+.header {
     margin-bottom: 10px;
 }
 
 nav a {
     border-bottom: 3px solid #ffffff;
-    color: #000;
+    color: #5cb0ff;
     display: inline-block;
     font: 18px/24px 'Oswald', sans-serif;
     padding: 10px;
@@ -101,12 +105,14 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #5cb0ff;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: circle;
 }
+
+footer li {color: black;} 
 
 .wrapper {
     margin: 0 auto;
@@ -151,16 +157,18 @@ footer ul {
     font-weight: 700;
 }
 
+
+
 .banner {
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
 
-.banner img {
+.banner img =none {
     margin-bottom: 16px;
 }
 
-.banner p {
+.banner p + p {
     padding: 0 15%;
 }
 
