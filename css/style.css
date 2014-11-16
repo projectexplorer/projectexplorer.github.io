@@ -7,11 +7,7 @@
 }
 
 body {
-    font: 16px/24px 'Roboto Slab', serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font: 16px/24px 'Oswald', sans-serif;
 }
 
 h1 {
@@ -24,6 +20,9 @@ h2 {
     margin-bottom: 8px;
 }
 
+p, footer, .last {
+    font-weight: 600;
+}
 
 p {
     margin-bottom: 24px;
@@ -50,6 +49,9 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
+nav a, .promo h3 {
+    text-transform: uppercase;
+}
 article h1 {
     margin-bottom: 8px;
 }
@@ -107,13 +109,16 @@ footer {
 
 footer ul {
     list-style-type: square;
-    font-family: 'Oswald', sans-serif
 }
 
 footer li {
     color: #000000;
 }
 
+footer p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
 
 .wrapper {
     margin: 0 auto;
@@ -155,7 +160,7 @@ footer li {
 /* BEGIN modules */
 
 .dateline {
-    font-weight: 700;
+    text-decoration: underline;
 }
 
 .banner {
@@ -178,8 +183,7 @@ footer li {
 .promo h3 {
     background-color: #5cb0ff;
     padding: 8px 0;
-    text-align: center;
-    text-transform: uppercase; 
+    text-align: center; 
 }
 
 .promo.level-middle h3 {
