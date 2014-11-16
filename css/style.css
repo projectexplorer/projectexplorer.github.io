@@ -7,7 +7,7 @@
 }
 
 body {
-    font: 16px/24px 'Roboto Slab', serif;
+    font: 16px/24px 'Helvetica', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +18,10 @@ h1 {
     line-height: 48px;
 }
 
+h1 third {color:blue
+}
+
+
 h2 {
     font-size: 24px;
     line-height: 32px;
@@ -27,6 +31,12 @@ h2 {
 
 p {
     margin-bottom: 24px;
+}
+
+h2 + p {margin-top: 0px;     
+}
+
+body > p {color: green; 
 }
 
 img {
@@ -53,6 +63,7 @@ nav a:hover {
 article h1 {
     margin-bottom: 8px;
 }
+
 
 article h1+img {
     margin-bottom: 24px;
@@ -99,14 +110,17 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #00CED1;
     clear: both;
-    color: #ffffff;
+    color: #000000;
 }
 
 footer ul {
     list-style-type: none;
 }
+
+footer li { color: white; }
+
 
 .wrapper {
     margin: 0 auto;
@@ -149,6 +163,10 @@ footer ul {
 
 .dateline {
     font-weight: 700;
+}
+
+.dateline {
+    background-color: turquoise;
 }
 
 .banner {
