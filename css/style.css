@@ -7,11 +7,11 @@
 }
 
 body {
-    font: 16px/24px 'Roboto Slab', serif;
+    #font: 16px/24px 'Roboto Slab', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    #font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -25,7 +25,9 @@ h2 {
 }
 
 
-p {
+h1, h2, p {
+    text-align: center;
+    font-size: 20px;
     margin-bottom: 24px;
 }
 
@@ -34,6 +36,7 @@ img {
 }
 
 header {
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -41,7 +44,7 @@ nav a {
     border-bottom: 3px solid #ffffff;
     color: #000;
     display: inline-block;
-    font: 18px/24px 'Oswald', sans-serif;
+    font: 20px/28px 'Oswald', sans-serif;
     padding: 10px;
     text-decoration: none;
 }
@@ -99,6 +102,7 @@ figcaption {
 
 
 footer {
+    text-align: center;
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
