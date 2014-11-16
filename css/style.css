@@ -50,6 +50,14 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
+.full {
+    background-color: #19B8BF; 
+}
+
+h2 + p {
+    text-align: left;
+}
+
 article h1 {
     margin-bottom: 8px;
 }
@@ -79,7 +87,7 @@ aside ul {
 }
 
 aside a {
-    color: #5cb0ff;
+    color: #19B8BF;
     text-decoration: none;
 }
 
@@ -95,6 +103,24 @@ figcaption {
     font-size: 12px;
     margin-bottom: 24px;
     margin-top: -6px;
+}
+
+img + figcaption {
+    padding-top: 2px;
+}
+
+ul li {
+    margin-top: 2px;
+}
+
+aside ul {
+    font size: 12px;
+    list-style-type: none;
+}
+
+aside a { 
+    color: #19B8BF;
+    text-decoration: none;
 }
 
 footer {
@@ -128,8 +154,11 @@ footer p {
     text-decoration: none;
     color: #ffffff;
 }
-    
 
+.last {
+    padding-top: 15px;
+}
+    
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
