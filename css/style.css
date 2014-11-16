@@ -24,6 +24,11 @@ h2 {
     margin-bottom: 8px;
 }
 
+h2 + p { 
+    font-size: 30px;
+    color: grey;
+    border-bottom: #5cb0ff;
+}
 
 p {
     margin-bottom: 24px;
@@ -103,12 +108,14 @@ footer {
     clear: both;
     color: #ffffff;
     font-family: sans-serif;
+    padding-top: 5px;
 }
 
 footer li { 
     color: white;
     border: solid;
     border-color: black;
+    padding: 3px;
 }
 
 footer ul {
@@ -216,5 +223,21 @@ footer ul {
         padding: 0;
         text-align: left;   
     }
-    
+    .first {
+        border-bottom-color: transparent;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-width: thick;
 }
+
+    .social {
+        border-style: double;
+        padding: 2px;
+        border-color: transparent;
+    }
+    
+   #one {
+        font-family: monospace;
+        background: grey;
+        
+    }
