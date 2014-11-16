@@ -9,7 +9,8 @@
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
-
+h1 { color:red; }
+h2 { color:orange; text-align:center; }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -24,7 +25,10 @@ h2 {
     margin-bottom: 8px;
 }
 
-
+p { 
+    color:purple; 
+    line-height:120%; 
+}
 p {
     margin-bottom: 24px;
 }
