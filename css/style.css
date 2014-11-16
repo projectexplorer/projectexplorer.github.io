@@ -108,6 +108,13 @@ footer ul {
     list-style-type: none;
 }
 
+footer li {
+    color: orange; 
+    font-size: 20px;
+    font-family: inherit;
+    background-color: black;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
