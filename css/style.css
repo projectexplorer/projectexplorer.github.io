@@ -37,7 +37,7 @@ img {
     width: 100%;
 }
 
-header {
+.header {
     margin-bottom: 10px;
 }
 
@@ -105,11 +105,11 @@ figcaption {
 footer {
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #5cb0ff;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 footer li {color: black;} 
@@ -164,11 +164,11 @@ footer li {color: black;}
     text-align: center;
 }
 
-.banner img {
+.banner img =none {
     margin-bottom: 16px;
 }
 
-.banner p {
+.banner p + p {
     padding: 0 15%;
 }
 
