@@ -7,11 +7,7 @@
 }
 
 body {
-    font: 16px/24px 'Roboto Slab', serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font: 16px/24px 'Oswald', sans-serif;
 }
 
 h1 {
@@ -24,6 +20,9 @@ h2 {
     margin-bottom: 8px;
 }
 
+p, footer, .last {
+    font-weight: 600;
+}
 
 p {
     margin-bottom: 24px;
@@ -50,6 +49,9 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
+nav a, .promo h3 {
+    text-transform: uppercase;
+}
 article h1 {
     margin-bottom: 8px;
 }
@@ -58,8 +60,8 @@ article h1+img {
     margin-bottom: 24px;
 }
 
-article h2 {
-    margin-bottom: 12px;
+article h2+img {
+    margin-bottom: 24px;
 }
 
 aside h3 {
@@ -99,13 +101,23 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    padding: 30px;
+    background-color: #ff9900;
     clear: both;
-    color: #ffffff;
+    color: #505050;
 }
 
 footer ul {
-    list-style-type: none;
+    list-style-type: square;
+}
+
+footer li {
+    color: #000000;
+}
+
+footer p {
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
 .wrapper {
@@ -148,7 +160,7 @@ footer ul {
 /* BEGIN modules */
 
 .dateline {
-    font-weight: 700;
+    text-decoration: underline;
 }
 
 .banner {
@@ -171,8 +183,7 @@ footer ul {
 .promo h3 {
     background-color: #5cb0ff;
     padding: 8px 0;
-    text-align: center;
-    text-transform: uppercase; 
+    text-align: center; 
 }
 
 .promo.level-middle h3 {
