@@ -18,6 +18,10 @@ h1 {
     line-height: 48px;
 }
 
+h1 third {color:blue
+}
+
+
 h2 {
     font-size: 24px;
     line-height: 32px;
@@ -27,6 +31,12 @@ h2 {
 
 p {
     margin-bottom: 24px;
+}
+
+h2 + p {margin-top: 0px;     
+}
+
+body > p {color: green; 
 }
 
 img {
@@ -53,6 +63,7 @@ nav a:hover {
 article h1 {
     margin-bottom: 8px;
 }
+
 
 article h1+img {
     margin-bottom: 24px;
@@ -152,6 +163,10 @@ footer li { color: white; }
 
 .dateline {
     font-weight: 700;
+}
+
+.dateline {
+    background-color: turquoise;
 }
 
 .banner {
