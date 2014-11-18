@@ -26,7 +26,8 @@ h2 {
 
 
 p {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
+    line-height: 24px;
 }
 
 img {
@@ -38,16 +39,16 @@ header {
 }
 
 nav a {
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
     color: #000;
     display: inline-block;
     font: 18px/24px 'Oswald', sans-serif;
-    padding: 10px;
+    padding: 18px;
     text-decoration: none;
 }
 
 nav a:hover {
-    border-bottom: 4px solid #5cb0ff;
+    border-bottom: 4px solid #a52a2a;
 }
 
 article h1 {
@@ -99,29 +100,41 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #669999;
     clear: both;
     color: #ffffff;
+    font: serif; 
+    font-family: sans-serif; 
+    font-size: 16px; 
+    text-align: center;
+    text-underline-position: below;
+    letter-spacing; animation-iteration-count: 
 }
 
 footer ul {
     list-style-type: none;
+    border-bottom: #000113; 
+    border-bottom-color: #000113;
+    
 }
+
+footer li { color: #000000}
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 900px;
     
 }
 
 .full, .third, .half {
-    margin-bottom: 32px;
+    margin-bottom: 22px;
 }
 
 .third {
+    margin-right: 1px; 
     float: left;
-    padding-right: 2%; 
-    width: 32%;
+    padding-right: 0%; 
+    width: 33%;
 }
 
 .twothird {
@@ -132,12 +145,14 @@ footer ul {
 
 .half {
     float: left;
-    padding-right: 2%;
+    padding-right: 1%;
     width: 49%;
 }
 
+
 .last { /* :last-child isnt' supported in IE8 */
     padding-right: 0;
+    
 }
 
 .clearfix {
@@ -157,7 +172,7 @@ footer ul {
 }
 
 .banner img {
-    margin-bottom: 16px;
+    margin-bottom: 6px;
 }
 
 .banner p {
@@ -166,21 +181,31 @@ footer ul {
 
 .promo img {
     margin-bottom: -6px;
+    padding-right: 13px; 
 }
 
+
 .promo h3 {
-    background-color: #5cb0ff;
-    padding: 8px 0;
+    background-color: #400000;
+    padding: 7px 0;  
     text-align: center;
     text-transform: uppercase; 
 }
 
+.promo.level-elementary h3 {
+    margin-left: 0px
+
+}
+
 .promo.level-middle h3 {
-    background-color: lime;
+    margin-bottom: 0px; 
+    background-color: #2f4f4f;
+    padding-bottom: 8px;
 }
 
 .promo.level-high h3 {
-    background-color: orange;
+    margin-top: 0px;
+    background-color: #a52a2a;
 }
 
 .promo h3 a {
@@ -203,6 +228,7 @@ footer ul {
     .half, .third, .twothird {
         width: 100%;
     }
+
     
     .banner p {
         padding: 0;
