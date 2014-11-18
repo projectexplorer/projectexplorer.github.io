@@ -100,9 +100,11 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #FF66CC;
+    font-family: hevitica, serif;
+    font-style: italic;
     clear: both;
-    color: #ffffff;
+    color: #66CCFF;
 }
 
 footer ul {
