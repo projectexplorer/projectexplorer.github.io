@@ -78,6 +78,7 @@ aside ul {
     list-style-type: none;
 }
 
+.two third
 aside a {
     color: #5cb0ff;
     text-decoration: none;
@@ -99,15 +100,18 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #FF66CC;
+    font-family: hevitica, serif;
+    font-style: italic;
     clear: both;
-    color: #ffffff;
+    color: #66CCFF;
 }
 
 footer ul {
     list-style-type: none;
 }
 
+li footer { color : 00CCCC; }
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -169,22 +173,22 @@ footer ul {
 }
 
 .promo h3 {
-    background-color: #5cb0ff;
+    background-color: #eeeecc;
     padding: 8px 0;
     text-align: center;
     text-transform: uppercase; 
 }
 
 .promo.level-middle h3 {
-    background-color: lime;
+    background-color: CCCCFF;
 }
 
 .promo.level-high h3 {
-    background-color: orange;
+    background-color: ;
 }
 
 .promo h3 a {
-    color: #ffffff;
+    color: #eeeccc;
     text-decoration: none;
 }
 
@@ -206,7 +210,7 @@ footer ul {
     
     .banner p {
         padding: 0;
-        text-align: left;   
+        text-align: center;   
     }
     
 }
