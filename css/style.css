@@ -18,12 +18,41 @@ h1 {
     line-height: 48px;
 }
 
+h1 {
+    color: #F7EAEA
+        
+        
+}
+
+h1 {background-color: #494040
+    
+}
+
 h2 {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
 }
 
+h2 {
+    background-color: #F5A9F2
+        
+        
+}
+
+    
+
+h3 {
+    font-size: 19px;
+    font-stretch: extra-condensed
+    
+
+}
+    
+h4 {
+    font-style: normal
+
+}
 
 p {
     margin-bottom: 24px;
@@ -35,6 +64,14 @@ img {
 
 header {
     margin-bottom: 10px;
+}
+
+header {background-color: #B40431
+    
+}
+
+header {font-style: comic sans;
+    
 }
 
 nav a {
@@ -92,25 +129,27 @@ figure {
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 17px;
     margin-bottom: 24px;
     margin-top: -6px;
 }
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #FF8000;
     clear: both;
-    color: #ffffff;
+    color: #0A2A29;
+    flex-basis: 
 }
 
 footer ul {
     list-style-type: none;
+    
 }
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 600px;
     
 }
 
@@ -152,7 +191,7 @@ footer ul {
 }
 
 .banner {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', "calibri";
     text-align: center;
 }
 
@@ -184,7 +223,7 @@ footer ul {
 }
 
 .promo h3 a {
-    color: #ffffff;
+    color: #fffff;
     text-decoration: none;
 }
 
