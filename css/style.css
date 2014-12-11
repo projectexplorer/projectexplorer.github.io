@@ -99,9 +99,10 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
-    clear: both;
-    color: #ffffff;
+    background-color: #330033;
+    clear: all;
+    color: #CCFFFF;
+    background-position: left;  
 }
 
 footer ul {
