@@ -12,6 +12,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
+    list-style-position: inherit; 
 }
 
 h1 {
@@ -24,7 +25,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-
+p {color: #330033}
 p {
     margin-bottom: 24px;
 }
@@ -99,13 +100,15 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
-    clear: both;
-    color: #ffffff;
+    background-color: #330033;
+    clear: all;
+    color: #CCFFFF;
+    background-position: left;  
 }
 
 footer ul {
     list-style-type: none;
+    <p {text-indent: 1.5em;}
 }
 
 .wrapper {
@@ -122,6 +125,7 @@ footer ul {
     float: left;
     padding-right: 2%; 
     width: 32%;
+    text-underline-position: alphabetic
 }
 
 .twothird {
